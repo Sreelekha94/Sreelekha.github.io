@@ -1,0 +1,105 @@
+/* Cascading stylesheet for the website */
+
+/* Text inside these asterisks and slashes are comments for human */
+  /* General Styles */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: black;
+}
+
+/* Container */
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+/* Headings */
+h1, h2, h3 {
+    color: #222;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 2.5em;
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+}
+
+h2 {
+    font-size: 1.8em;
+    color: black;
+    margin-top: 20px;
+}
+
+h3 {
+    font-size: 1.4em;
+    color: black;
+}
+
+/* Lists */
+ul {
+    margin: 0;
+    padding: 0 0 0 20px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* Links */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Sections */
+.section {
+    margin-bottom: 30px;
+    padding: 15px 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.section:last-child {
+    border-bottom: none;
+}
+
+/* Contact Info */
+.contact-info {
+    margin-top: 10px;
+    font-size: 1.1em;
+}
+
+/* Projects and Skills */
+.skills ul, .projects ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        padding: 15px;
+        margin: 10px;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+}
