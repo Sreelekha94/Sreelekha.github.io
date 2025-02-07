@@ -10,6 +10,14 @@ body {
     background-color: #f4f4f4;
     color: #333;
 }
+/* banner */
+.banner {
+            width: 100%;
+            height: auto;
+            display: block;
+            max-width: 1600px; /* Ensures it doesn't stretch on large screens */
+            margin: 0 auto; /* Centers the image */
+}
 
 /* Container */
 .container {
