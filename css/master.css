@@ -1,6 +1,5 @@
 /* Cascading stylesheet for the website */
 
-/* Text inside these asterisks and slashes are comments for human */
 /* General Styles */
 body {
     font-family: Arial, sans-serif;
@@ -154,4 +153,18 @@ footer {
     h2 {
         font-size: 1.5em;
     }
+}
+
+/* Typography Improvements */
+strong {
+    color: #1ABC9C; /* Teal Blue emphasis */
+}
+
+blockquote {
+    border-left: 5px solid #2980B9; /* Deep Sky Blue */
+    padding: 10px 20px;
+    margin: 20px 0;
+    background: #EAF2F8; /* Soft Blue Background */
+    font-style: italic;
+    color: #2C3E50;
 }
